@@ -1,16 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <UsandoProps />
+ 
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import UsandoProps from './components/UsandoProps.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    UsandoProps,
+   }
 }
 </script>
 
@@ -22,5 +25,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+ul, li{
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
 }
 </style>
